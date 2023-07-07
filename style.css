@@ -1,0 +1,1366 @@
+.screen{
+    /* box-sizing: border-box; */
+width: 1440px;
+height: 861px;
+background: #FFF;
+margin-left: 124px;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+.headerlist{
+    display: flex;
+    padding-right: 125px;
+  
+    gap: 32px;
+   list-style-type: none;
+   z-index: 100;
+}
+.icon1{
+    padding-top: 64px;
+    
+}
+
+.icon2{
+    padding-top: 62px;
+}
+
+.pp{
+    padding-top: 42px;
+}
+.a-on-header{
+    color: #444;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 43px;
+margin-bottom: 0;
+text-decoration: none;
+
+}
+
+.p-on-header{
+    color: #95A3B4;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
+.left{
+    padding-top: 43px;
+   
+}
+
+.rectangle1{
+    width: 501px;
+height: 83px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #FFF;
+box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.30);
+display: flex;
+flex-wrap: wrap;
+position: relative;
+}
+.netflixfamilypack{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    top: 20px;
+    left: 82px;
+    bottom: 37px;
+    right: 258px;
+}
+.netflixlogo{
+    position: absolute;
+    left: 22px;
+    top: 27px;
+    bottom: 23px;
+    right: 446px;
+}
+.netflixbg{
+    top: 13px;
+    bottom: 9px;
+    left: 8px;
+    right: 432px;
+    position: absolute;
+    width: 61px;
+height: 61px;
+flex-shrink: 0;
+}
+.spotifybg{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    top: 13px;
+    bottom: 9px;
+    left: 8px;
+    right: 432px;
+    width: 61px;
+height: 61px;
+flex-shrink: 0;
+border-radius: 100%;
+border: none;
+background-color: #CAFBDF;
+}
+.button1{
+    width: 56px;
+height: 16px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #0B69FF;
+color: #0B69FF;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: transparent;
+position: absolute;
+text-align: center;
+
+    text-align: center; /* Align the text horizontally to the center */
+    /* Optionally, you can also use the following CSS properties to center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:47px ;
+bottom:20px ;
+right:333px ;
+left: 112px;
+}
+
+
+
+.bill{
+    margin: 0;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+top:45px;
+right: 398px;
+bottom: 17px;
+left: 83px;
+}
+
+.netflixfamilypack{
+    color: #444;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 0;
+}
+.price1{
+    color: #F62F4A;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+top:30px ;
+bottom:23px ;
+left: 341px;
+right:72px;
+margin-top: 0;
+}
+.recenttransaction{
+    color: #444;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 0;
+margin-top: 75px;
+}
+.firstdate{
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 0;
+}
+.rectangle2{
+    width: 501px;
+height: 83px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #FFF;
+box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.30);
+display: flex;
+flex-wrap: wrap;
+position: relative;
+margin-top: 17px;
+}
+.spotifylogo{
+    position: absolute;
+    top: 26px;
+    left: 22px;
+    bottom: 23px;
+    right: 445px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.date2{
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 51px;
+}
+.rectangle3{
+    width: 501px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.30);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.rectangle4{
+    width: 501px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.30);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 17px;
+    margin-bottom: 17px;
+
+}
+.rectangle5{
+    width: 501px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.30);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 59px;
+}
+.firstperson{
+    width: 61px;
+height: 61px;
+flex-shrink: 0;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top: 13px;
+left: 8px;
+bottom: 9px;
+right: 432px;
+
+}
+.secondperson{
+    width: 61px;
+height: 61px;
+flex-shrink: 0;
+left: 8px;
+top: 13px;
+bottom: 9px;
+right: 432px;
+position: absolute;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+}
+.teb{
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
+}
+.sylviaperez{
+    position: absolute;
+    color: #444;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+top: 20px;
+left: 83px;
+bottom: 37px;
+right: 317px;
+}
+.alesandroAlberici{
+    color: #444;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+top: 20px;
+bottom: 37px;
+left: 83px;
+right: 262px;
+
+}
+.tebbank{
+    color: #444;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+top: 20px;
+bottom: 37px;
+left: 83px;
+right: 341px;
+}
+
+.ipo{
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+top: 45px;
+bottom: 17px;
+left: 83px;
+right: 395px;
+}
+.transfer{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+top: 45px;
+left: 83px;
+bottom: 17px;
+right: 360px;
+}
+.loan{
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top: 45px;
+bottom: 17px;
+left: 83px;
+right: 384px;
+}
+.button2{
+    top:48px;
+    left: 149px;
+    bottom: 19px;
+    right:296px;
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 56px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #0B69FF;
+    color: #0B69FF;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    
+        text-align: center; /* Align the text horizontally to the center */
+        /* Optionally, you can also use the following CSS properties to center vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.button3{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 4px;
+border: 1px solid #FFBB0B;
+width: 79px;
+height: 16px;
+flex-shrink: 0;
+text-align: center; /* Align the text horizontally to the center */
+        /* Optionally, you can also use the following CSS properties to center vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ background-color: transparent;
+ color: #FFBB0B;
+ bottom: 19px;
+ top: 48px;
+ left: 112px;
+ right: 310px;
+}
+.button4{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 56px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #0B69FF;
+    color: #0B69FF;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    
+        text-align: center; /* Align the text horizontally to the center */
+        /* Optionally, you can also use the following CSS properties to center vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 48px;
+        bottom: 19px;
+        left: 124px;
+        right: 321px;
+}
+.price2{
+    color: #F62F4A;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+top: 30px;
+left: 341px;
+bottom: 23px;
+right: 58px;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+}
+.price3{
+    color: #07C259;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+top: 30px;
+bottom: 23px;
+left: 341px;
+right: 73px;
+position: absolute;
+}
+.teb{
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+position: absolute;
+top: 30px;
+left: 24px;
+bottom: 25px;
+right: 449px;
+}
+.tabellipse{
+    position: absolute;
+    margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+top: 13px;
+bottom: 9px;
+left: 8px;
+right: 432px;
+}
+.price4{
+    color: #F62F4A;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top: 30px;
+bottom: 23px;
+left: 341px;
+right: 66px;
+}
+.mainbody{
+    display: flex;
+    justify-content: space-between;
+}
+.topright{
+    width: 488px;
+height: 154px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #0B69FF;
+box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.50);
+margin-right: 125px;
+flex-wrap: wrap;
+display: flex;
+position: relative;
+margin-top: 66px;
+}
+.accountbalance{
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+position: absolute;
+top: 42px;
+bottom: 88px;
+left: 26px;
+right: 324px;
+
+}
+.accountbalanceprice{
+    position: absolute;
+    color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+left: 26px;
+top: 66px;
+right: 300px;
+bottom: 34px;
+}
+.primarybutton{
+    width: 79px;
+height: 23px;
+flex-shrink: 0;
+border-radius: 7px;
+border: 1px solid #FFF;
+background-color: transparent;
+color: #FFF;
+position: absolute;
+margin: 0;
+top: 82px;
+left: 204px;
+bottom: 49px;
+right: 205px;
+}
+.firstcounter{
+    position: absolute;
+    margin: 0;
+    top: 37px;
+    left: 333px;
+    bottom: 80px;
+    right: 118px;
+    margin: 0;
+}
+.expenses{
+    display: flex;
+width: 67px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+top: 36px;
+bottom: 97px;
+right: 47px;
+left: 374px;
+position: absolute;
+margin: 0;
+}
+.priceofexpensess{
+    display: flex;
+width: 67px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+top: 52px;
+bottom: 81px;
+left: 374px;
+right: 47px;
+position: absolute;
+margin: 0;
+}
+.secondcounter{
+    position: absolute;
+    top: 81px;
+    bottom: 36px;
+    left: 333px;
+    right: 118px;
+    margin: 0;
+}
+.incomes{
+    display: flex;
+width: 67px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+.priceofincome{
+    display: flex;
+width: 67px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+top: 96px;
+bottom: 37px;
+left: 374px;
+right: 47px;
+position: absolute;
+
+}
+.incomes{
+    margin: 0;
+    position: absolute;
+    top: 80px;
+    bottom: 53px;
+    right: 47px;
+    left: 374px;
+}
+.spotifyduopack{
+    color: #444;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+top: 20px;
+bottom:37px;
+left: 83px;
+right: 275px;
+position: absolute;
+width: auto;
+white-space: nowrap; /* Prevent the text from wrapping */
+}
+.midright{
+    border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.50);
+width: 488px;
+height: 131px;
+flex-shrink: 0;
+position: relative;
+display: flex;
+justify-content: space-between;
+margin-top: 47px;
+}
+.leftcard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardinformation{
+    color: #444;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top:16px ;
+bottom: 91px;
+left: 26px;
+right:91px ;
+}
+.status{
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top:45px ;
+bottom:65px ;
+left: 26px;
+right: 414px;
+}
+.name{
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top: 68px;
+bottom: 42px;
+left: 26px;
+right: 311px;
+}
+.typeofcard{
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top: 93px;
+bottom: 17px;
+left: 26px;
+}
+.paymentcard{
+    color: #000000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top:68px;
+bottom: 42px;
+right:311px ;
+}
+.mastercard{
+    color: #000000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top:93px ;
+bottom: 17px;
+right:279px ;
+}
+.active{
+    text-align: center; /* Align the text horizontally to the center */
+    /* Optionally, you can also use the following CSS properties to center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+height: 18px;
+flex-shrink: 0;
+background: #CAFBDF;
+color: #69C267;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top:46px ;
+bottom: 67px;
+left: 86px;
+right: 340px;
+}
+.mastercardlogo{
+    margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top:97px ;
+bottom: 22px;
+left: 214px;
+right: 254px;
+}
+.currency{
+    color: #444;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top:16px ;
+bottom: 91px;
+left:328px ;
+right: 61px;
+}
+.flag{
+    margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+position: absolute;
+top: 45px;
+bottom: 23px;
+left: 330px;
+right: 63px;
+}
+
+.botright{
+    margin-top: 47px;
+    position: relative;
+    width: 488px;
+height: 253px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 7px 30px -10px rgba(150, 170, 180, 0.50);
+}
+.n01{
+    position: absolute;
+    left: 71px;
+    right: 406px;
+    bottom: 15px;
+    top: 220px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n02{
+    position: absolute;
+    left: 108px;
+    bottom: 15px;
+    top: 220px;
+    right: 365px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n03{
+    position: absolute;
+    left: 145px;
+    bottom: 15px;
+    top: 220px;
+    right: 328px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n04{
+    position: absolute;
+    top: 220px;
+    bottom: 15px;
+    left: 182px;
+    right: 291px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n05{
+    position: absolute;
+    top: 220px;
+    bottom: 15px;
+    left: 219px;
+    right: 254px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n06{
+    position: absolute;
+    top: 220px;
+    bottom: 15px;
+    left: 256px;
+    right: 151px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n07{
+position: absolute;
+left: 293px;
+top: 220px;
+bottom: 15px;
+right: 181px;
+color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n08{
+    position: absolute;
+    left: 330px;
+    top: 220px;
+    bottom: 15px;
+    right: 143px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n09{
+    position: absolute;
+    left: 367px;
+    bottom: 15px;
+    top: 220px;
+    right: 106px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n10{
+    position: absolute;
+    left: 404px;
+    bottom: 15px;
+    top: 220px;
+    right: 73px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n11{
+    position: absolute;
+    top: 220px;
+    bottom:15px;
+    left: 441px;
+    right: 39px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n3000{
+    position: absolute;
+    top: 20px;
+    left: 26px;
+    right: 432px;
+    bottom: 206px;
+    color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+display: flex;
+width: 30px;
+height: 27px;
+flex-direction: column;
+flex-shrink: 0;
+}
+.n1500{
+    position: absolute;
+    top: 63px;
+    left: 26px;
+    bottom: 162px;
+    right: 436px;
+    display: flex;
+width: 26px;
+height: 28px;
+flex-direction: column;
+flex-shrink: 0;
+color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n0{
+    position: absolute;
+    top: 106px;
+    left: 26px;
+    bottom: 119px;
+    right: 454px;
+    display: flex;
+width: 8px;
+height: 28px;
+flex-direction: column;
+flex-shrink: 0;
+color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n-1500{
+    position: absolute;
+    top: 149px;
+    bottom: 76px;
+    left: 20px;
+    right: 436px;
+    display: flex;
+width: 32px;
+height: 28px;
+flex-direction: column;
+flex-shrink: 0;
+color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.n-3000{
+    position: absolute;
+    top: 193px;
+    left: 20px;
+    bottom: 33px;
+    right: 432px;
+    display: flex;
+width: 36px;
+height: 27px;
+flex-direction: column;
+flex-shrink: 0;
+color: #95A3B4;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.line1{
+    width: 403px;
+height: 1px;
+background: rgba(149, 163, 180, 0.20);
+border: none;
+position: absolute;
+top: 29px;
+left: 58px;
+bottom: 224px;
+right: 27px;
+}
+.line2{
+    width: 407px;
+height: 1px;
+background: rgba(149, 163, 180, 0.20);
+position: absolute;
+top: 72px;
+bottom: 181px;
+left: 54px;
+right: 27px;
+border: none;
+}
+.line3{
+    width: 424px;
+height: 1px;
+background: rgba(149, 163, 180, 0.20);
+position: absolute;
+top: 115px;
+left: 37px;
+bottom: 138px;
+right: 27px;
+border: none;
+}
+.line4{
+    width: 406px;
+height: 1px;
+background: rgba(149, 163, 180, 0.20);
+position: absolute;
+top: 158px;
+bottom: 95px;
+left: 55px;
+right: 27px;
+border: none;
+}
+.line5{
+    width: 403px;
+height: 1px;
+background: rgba(149, 163, 180, 0.20);
+position: absolute;
+top: 201px;
+bottom: 52px;
+left: 58px;
+right: 27px;
+border: none;
+}
+.button01{
+    width: 11px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 5px;
+background: #0B69FF;
+position: absolute;
+top: 34px;
+left: 71px;
+bottom: 138px;
+right: 406px;
+border: none;
+}
+.button02{
+    width: 11px;
+height: 49px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #F62F4A;
+position: absolute;
+top: 90px;
+bottom: 114px;
+left: 110px;
+right: 367px;
+border: none;
+}
+.button03{
+    width: 11px;
+height: 86px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #F62F4A;
+position: absolute;
+top: 91px;
+left: 145px;
+bottom: 76px;
+right: 332px;
+border: none;
+}
+.button04{
+    width: 11px;
+height: 124px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #F62F4A;
+position: absolute;
+top: 69px;
+bottom: 60px;
+left: 183px;
+right: 294px;
+border: none;
+}
+.button05{
+    width: 11px;
+height: 106px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #0B69FF;
+position: absolute;
+top: 23px;
+bottom: 124px;
+left: 221px;
+right: 256px;
+border: none;
+}
+.button06{
+    width: 11px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #83B3FF;
+position: absolute;
+top: 97px;
+bottom: 123px;
+left: 256px;
+right: 221px;
+border: none;
+}
+.button07{
+    width: 11px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #83B3FF;
+position: absolute;
+border: none;
+top: 83px;
+bottom: 104px;
+right: 185px;
+left: 292px;
+}
+
+.button08{
+    width: 11px;
+height: 104px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #83B3FF;
+position: absolute;
+border: none;
+top: 58px;
+bottom: 91px;
+left: 331px;
+right: 146px;
+}
+.button09{
+position: absolute;
+    width: 11px;
+height: 81px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #0B69FF;
+border: none;
+top: 43px;
+bottom: 129px;
+left: 367px;
+right: 110px;
+}
+.button010{
+position: absolute;
+    width: 11px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #83B3FF;
+border: none;
+top: 83px;
+bottom: 104px;
+left: 402px;
+right: 75px;
+}
+.button011{
+position: absolute;
+    width: 11px;
+height: 108px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #F62F4A;
+border: none;
+top: 69px;
+right: 39px;
+bottom: 76px;
+left: 438px;
+}
